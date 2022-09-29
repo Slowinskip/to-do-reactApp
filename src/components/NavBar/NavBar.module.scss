@@ -23,6 +23,12 @@ nav {
 li {
     padding: $base-size;
     font-weight: bold;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .spanDiv {
