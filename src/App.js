@@ -3,13 +3,17 @@ import SearchForm from './components/SearchForm/SearchForm'
 import List from './components/List/List';
 import Container
  from './components/Container/Container';
+ import Navbar from './components/NavBar/NavBar';
 const App = () => {
   return (
-    <Container>
-      <Hero />
-      <SearchForm />
-      <List />
-    </Container>
+    <main>
+      <Navbar />
+      <Container>
+        <Hero />
+        <SearchForm />
+        <List />
+      </Container>
+    </main>
   );
 };
 
