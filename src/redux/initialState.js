@@ -1,20 +1,30 @@
 const initialState = {
     columns: [
       {
+        listId: '1',
         id: 1,
         title: 'Books',
         icon: 'book',
       },
       {
+        listId: '1',
         id: 2,
         title: 'Movies',
         icon: 'film',
       },
       {
         id: 3,
+        listId: '1',
         title: 'Games',
         icon: 'gamepad',
+      },
+      {
+        id: 1,
+        listId: '2',
+        title: 'Test',
+        icon: 'gamepad',
       }
+
     ],
   
     cards: [
@@ -27,6 +37,19 @@ const initialState = {
     ],
 
     searchString: '',
+
+    lists: [
+      {
+        id: '1',
+        title: 'Things to do...',
+        description: 'Interesting things I want to check out'
+      },
+     {
+        id: '2',
+        title: 'Test list',
+        description: 'Lorem Ipsum'
+     }
+   ]
   
   };
   
