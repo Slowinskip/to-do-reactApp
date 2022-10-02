@@ -16,7 +16,7 @@ const Card = props => {
         e.preventDefault();
         console.log('+', cardId);
         setFavorite(!favorite)
-        dispatch(toggleFavoriteCard( cardId ))
+        dispatch(toggleFavoriteCard(cardId))
 
         
     }

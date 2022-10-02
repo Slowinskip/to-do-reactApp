@@ -3,8 +3,7 @@ import Button from '../Button/Button';
 import styles from './SearchForm.module.scss';
 import { useDispatch, useSelector } from 'react-redux';
 import { useState } from 'react';
-import { getSearchString } from '../../redux/store';
-import { searchCard } from '../../redux/store';
+import { getSearchString, searchCard } from '../../redux/store';
 
 
 
